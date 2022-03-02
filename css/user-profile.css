@@ -1,0 +1,197 @@
+body {
+  font-family: 'PT Sans', sans-serif !important;
+  background-color: #c1ebe2;
+  padding-bottom: 5rem;
+}
+
+.logo-photo {
+  width: 35px;
+  height: 40px;
+}
+
+.navbar {
+  background-color: #c1ebe2 !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #2f5a62 !important;
+  font-size: calc(23% + 1vw + 1vh);
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #669591 !important;
+  margin-right: 2rem;
+}
+
+.hovclass:hover{
+  color: #2f5a62 !important;
+}
+
+.active {
+  color: #2f5a62 !important;
+}
+
+
+.btn {
+  background-color: #2f5a62;
+  color: white;
+  font-weight: bold;
+  width: 135px;
+  font-size: 11px;
+  height: 24px;
+  line-height: 0.5;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.btn:hover {
+  background-color: #c1ebe2;
+  color: #2f5a62;
+  border: 2px solid #2f5a62;
+  font-weight: bold;
+}
+
+/* PROFILE PART */
+.container {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 5rem 7rem 3rem 7rem;
+}
+
+.profcol {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profilepic {
+  width: 200px;
+  height: 200px;
+}
+
+/* FIRST COLUMN OF INFO */
+.labelings {
+  font-weight: bold;
+  color: #2f5a62;
+}
+
+.information {
+  font-weight: 400;
+  color: #669591;
+  position: relative;
+  bottom: 10px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1024px) {
+
+  .profilepic {
+      width: 170px;
+      height: 170px;
+  }
+
+  .container {
+      padding: 5rem 3rem 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pl-5, .px-5 {
+    padding-left: 0rem !important;
+  }
+
+  .profilepic {
+    width: 180px;
+    height: 180px;
+  }
+
+  .navbar {
+    padding: 0.5rem 2rem 0.5rem 5rem;
+  }
+
+  .navbar {
+    padding: 0.5rem 2rem;
+  }
+
+  .container {
+    padding: 5rem 0rem 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .pl-5, .px-5 {
+    padding-left: 2rem !important;
+  }
+
+  .profilepic {
+    width: 170px;
+    height: 170px;
+  }
+
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .profcol {
+    justify-content: center;
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .profilepic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .pl-5, .px-5 {
+    padding-left: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .profcol {
+    padding-right: 0;
+  }
+
+  .btn {
+    left: 0;
+    font-size: 14px;
+    width: 95px;
+  }
+
+  .profilepic {
+    width: 130px;
+    height: 130px;
+  }
+
+  .navbar {
+    padding-left: 1rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+  }
+
+  .container {
+    padding: 5rem 3rem 3rem 3rem;
+  }
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+
+  <title>Sim Card Registration System</title>
+  <!-- LOGO ON TAB -->
+  <link rel="icon" href="images/logo.png">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CDN CSS FILE BOOTSTRAP VER 4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- CUSTOM CSS FILE  -->
+  <link rel="stylesheet" href="css/reportUser.css">
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/207a28b81e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section="navigbar">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light mt-4 pl-5">
+      <a class="navbar-brand ml-5" href="#"><img src="images/logo.png" alt="" class="logo-photo img-responsive"></a>
+      <a class="navbar-brand mr-5 ml-3" href="#">Sim Card Registration System</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+
+          <a class="nav-link hovclass" href="user-profile.html">Profile</a>
+          <a class="nav-link active hovclass" href="report-new.html">Report<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html"><button type="button" name="button" class="btn">Sign out</button></a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- FORM PART -->
+  <div class="container">
+    <div class="row header ">
+      <h2>Report a malicious number</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 iconn">
+        <!-- COLUMN 1 -->
+        <form class="" id="form" action="#" method="post">
+          <div class="infodiv">
+            <p class="labelings">Name</p>
+            <input type="text" name="" value="" id="usernamee" class="form-control" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="infodiv">
+            <p class="labelings">Your Mobile Number</p>
+            <input type="text" name="" value="" id="yourNumber" class="form-control" pattern=".{11}" title="Write an 11-digit number ex: 09175901234" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+
+          <div class="infodiv">
+            <p class="labelings">Mobile Number to be reported</p>
+            <input type="text" name="" value="" id="reportedMobilenumber" class="form-control" pattern=".{11}" title="Write an 11-digit number ex: 09175901234" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+          </div>
+            <button type="submit" name="button" class="send-btn">Send</button>
+        </form>
+
+
+      </div>
+      <div class="col-md-6 textclass">
+        <!-- TEXTAREA COLUMN 2 -->
+        <form class="" action="#" id="form" method="post">
+          <div class="infodiv">
+            <p class="labelings">Remarks</p>
+            <textarea id="textArea" class="form-control" name="name" rows="9" cols="80" required="required" ></textarea>
+          </div>
+            <button type="button" name="button" class="ss-btn upload-btn-wrapper">
+              <input type="file" name="myfile" required/>Submit Screenshot of Message</button>
+
+        </form>
+        </div>
+
+
+
+    </div>
+
+  </div>
+</body>
+<script src="js/disregard-bootstrap-validate.js"></script>
+<script>
+  bootstrapValidate('#usernamee','alphanumeric:Please only enter alphanumeric characters');
+  bootstrapValidate('#yourNumber','numeric:Please enter only numeric characters');
+  bootstrapValidate('#reportedMobilenumber','numeric:Please enter only numeric characters');
+
+</script>
+</html>

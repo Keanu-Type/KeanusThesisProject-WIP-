@@ -1,0 +1,45 @@
+.logopic {
+    width: 24px;
+    position: relative;
+    top: 1rem;
+}
+
+.par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 6px;
+}
+
+body {
+    /* padding-top: 20%; */
+    padding: 4rem 3rem;
+}
+
+.firstcol {
+    background-color: #2f5a62;
+    height: 132px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 11px 24px #669591;
+}
+
+.logo{
+  display: flex;
+}
+
+/*  HELLO WORLD */
+
+
+
+
+
+
+
+
+.infodiv i {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}

@@ -1,0 +1,535 @@
+/* Hello World */
+/* KULANG PA NG MEDIA QUERY */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c1ebe2;
+  padding: 5% 5rem;
+}
+
+.errormessage{
+  position: relative;
+}
+
+
+/* FIRST COLUMN */
+.firstcol {
+  background-color: #2f5a62;
+  height: 500px;
+  width: 800px;
+  display: grid;
+  align-content: center;
+  box-shadow: 0 11px 24px #669591;
+}
+
+.logopic {
+  width: 100px;
+}
+
+.par {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* SECOND COLUMN */
+.secondcol {
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  display: grid;
+  align-content: center;
+  box-shadow: 0 11px 24px #669591;
+}
+
+.userlogtext {
+  color: #2f5a62;
+  font-weight: bold;
+  position: relative;
+  bottom: 5rem;
+}
+
+.buttonn {
+  position: relative;
+  top: 91px;
+  ;
+}
+
+.btn {
+  background-color: #2f5a62;
+  color: white;
+  width: 50%;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #c1ebe2;
+  color: #2f5a62;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mobnum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.usertypes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 139px;
+}
+
+a {
+  text-decoration: none;
+  color: #c1ebe2;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2f5a62;
+}
+
+.simuser-type {
+  color: #2f5a62;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1024px) {
+  .logopic{
+    width: 75px;
+  }
+
+  .firstcol {
+      background-color: #2f5a62;
+      height: 500px;
+      width: 800px;
+      display: grid;
+      align-content: center;
+      box-shadow: 0 11px 24px #669591;
+  }
+
+  .par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.userlogtext {
+    color: #2f5a62;
+    font-weight: bold;
+    position: relative;
+    bottom: 5.5rem;
+}
+
+.form-control {
+    width: 86%;
+    height: 50px;
+}
+
+.mobnum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #2f5a62;
+    color: white;
+    width: 86%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.buttonn {
+    position: relative;
+    top: 65px;
+}
+
+.usertypes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 112px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .logopic{
+    width: 65px;
+  }
+
+  .firstcol {
+      background-color: #2f5a62;
+      height: 500px;
+      width: 800px;
+      display: grid;
+      align-content: center;
+      box-shadow: 0 11px 24px #669591;
+  }
+
+  .par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.userlogtext {
+    color: #2f5a62;
+    font-weight: bold;
+    position: relative;
+    bottom: 5.6rem;
+}
+
+.form-control {
+    width: 86%;
+    height: 50px;
+}
+
+.mobnum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #2f5a62;
+    color: white;
+    width: 86%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.buttonn {
+    position: relative;
+    top: 65px;
+}
+
+.usertypes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 112px;
+
+}
+
+a{
+  font-size: 10px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 430px) {
+  body {
+    /* padding-top: 20%; */
+    padding: 4rem 3rem;
+  }
+
+  .logopic {
+    width: 35px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+  }
+
+  .par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+
+  .firstcol {
+    background-color: #2f5a62;
+    height: 4rem;
+    width: 800px;
+    box-shadow: 0 11px 24px #669591;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  /* SECOND COLUMN */
+
+  .title-log {
+      display: flex;
+      flex-direction: column;
+      margin-top: -1.3rem;
+  }
+
+
+  .userlogtext {
+      color: #2f5a62;
+      font-weight: bold;
+      position: relative;
+      bottom: 7.7rem;
+      font-size: 14px;
+  }
+
+
+  .form-control {
+      width: 85%;
+      height: 50px;
+      font-size: 14px;
+      top: -4rem;
+      position: relative;
+  }
+
+  .buttonn {
+      margin-top: -11rem;
+      position: relative;
+      top: 11.5rem;
+  }
+
+  .btn {
+      background-color: #2f5a62;
+      color: white;
+      width: 85%;
+      height: 50px;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      text-transform: uppercase;
+  }
+
+  a {
+      text-decoration: none;
+      color: #c1ebe2;
+      font-family: 'Roboto', sans-serif !important;
+      margin: 0 10px;
+      font-size: 12px;
+  }
+
+  .usertypes {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 3rem;
+      margin-top: 6.5rem;
+  }
+
+  .secondcol {
+      background-color: white;
+      height: 450px;
+      display: grid;
+      align-content: center;
+      box-shadow: 0 11px 24px #669591;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  body {
+    /* padding-top: 20%; */
+    padding: 4rem 3rem;
+  }
+
+  .logopic {
+    width: 30px;
+    height: 35px;
+    position: relative;
+    top: 6px;
+  }
+
+  .par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+
+  .firstcol {
+    background-color: #2f5a62;
+    height: 4rem;
+    width: 800px;
+    box-shadow: 0 11px 24px #669591;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  /* SECOND COLUMN */
+
+  .title-log {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  .userlogtext {
+      color: #2f5a62;
+      font-weight: bold;
+      position: relative;
+      bottom: 5.8rem;
+      font-size: 12px;
+  }
+
+
+  .form-control {
+      width: 85%;
+      height: 30px;
+      font-size: 12px;
+      top: -2.5rem;
+      position: relative;
+  }
+
+  .buttonn {
+      margin-top: -10.5rem;
+  }
+
+  .btn {
+      background-color: #2f5a62;
+      color: white;
+      width: 85%;
+      height: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      text-transform: uppercase;
+  }
+
+  a {
+      text-decoration: none;
+      color: #c1ebe2;
+      font-family: 'Roboto', sans-serif !important;
+      margin: 0 10px;
+      font-size: 10px;
+  }
+
+  .usertypes {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 3rem;
+  }
+
+  .secondcol {
+      background-color: white;
+      height: 365px;
+      display: grid;
+      align-content: center;
+      box-shadow: 0 11px 24px #669591;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    /* padding-top: 20%; */
+    padding: 4rem 3rem;
+  }
+
+  .logopic {
+      width: 25px;
+      height: 30px;
+      position: relative;
+      top: 6px;
+  }
+
+  .par {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 9px;
+    margin-left: 1rem;
+  }
+
+  .firstcol {
+    background-color: #2f5a62;
+    height: 4rem;
+    width: 800px;
+    box-shadow: 0 11px 24px #669591;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  /* SECOND COLUMN */
+
+  .title-log {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  .userlogtext {
+      color: #2f5a62;
+      font-weight: bold;
+      position: relative;
+      bottom: 4.3rem;
+      font-size: 10px;
+  }
+
+
+  .form-control {
+      width: 75%;
+      height: 20px;
+      font-size: 10px;
+      top: -2.5rem;
+      position: relative;
+  }
+
+  .buttonn {
+      margin-top: -11.6rem;
+  }
+
+  .btn {
+      background-color: #2f5a62;
+      color: white;
+      width: 75%;
+      height: 25px;
+      font-size: 10px;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 300;
+      text-transform: uppercase;
+  }
+
+  a {
+      text-decoration: none;
+      color: #c1ebe2;
+      font-family: 'Roboto', sans-serif !important;
+      margin: 0 10px;
+      font-size: 6px;
+  }
+
+  .usertypes {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      bottom: 3rem;
+  }
+
+  .secondcol {
+      background-color: white;
+      height: 274px;
+      display: grid;
+      align-content: center;
+      box-shadow: 0 11px 24px #669591;
+  }
+
+
+}
